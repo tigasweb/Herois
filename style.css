@@ -1,0 +1,104 @@
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+header{
+    background: linear-gradient(254deg,rgba(85, 85, 85, 0.897) 0%, rgba(189, 17, 4, 0.966) 50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+header img{
+    width: 150px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style: none;
+    
+}
+Li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.Section-1{
+    background-color: black;
+    padding: 140px;
+    display: flex ;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 30px; /*Espaçamento entre as divs*/
+}
+.div-1 img {
+    width: 300px;
+}
+.div-2 p{
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 50px; /*Margem de esquerda-espaçamento*/
+}
+/* texto destaque da section-01 */
+.span-1{
+    color:rgba(228, 19, 4, 0.795);/* cor da letra so span*/
+    font-size: 40px;/*tamanho da letra span*/
+}
+.Section-2{
+    background-color: #000000;
+    padding: 120px;
+    flex-direction: column;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.div-paragrafo p{
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    
+}
+.fa-brands{
+    font-size: 50px;
+    color:  #7a7c7a;;
+    gap: 50px;
+}
+.Section-2 h1{
+    color: #f70a0a;;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.Section-3 {
+   background-image: url(imagens/fudo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-Section-3 {
+    background: #0a0a0a;
+    color: #e50914;
+    border: 2px solid #860000;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 15 15 15px rgba(139, 0, 0, 0.7);
+}
