@@ -83,7 +83,7 @@ Li a{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding: 300px;
+    padding: 200px;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -101,4 +101,84 @@ Li a{
     border-radius: 6px;
     cursor: pointer;
     box-shadow: 15 15 15px rgba(139, 0, 0, 0.7);
+}
+
+.Section-4 {
+    padding: 60px;
+    background-color: #000000;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Section-4 div {
+    width: 300px;
+    height: 300px;
+    background-color: #074207;
+    padding: 15px;
+    text-align: center;
+    box-shadow: #860000 8px 8px 14px;
+    color: white;
+}
+
+.div-01 h2 {
+   font-size: 25px;
+   text-transform: uppercase;
+   margin-top: 30px;
+    
+}
+
+.div-01 p{
+    font-size: 20px;
+    font-weight: 700;
+     margin-top: 15px;
+    
+}
+
+.div-02 {
+    background-image: url(imagens/coringa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.div-03 img {
+    width: 100px;
+    
+}
+
+.div-03 p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.fa-star, .fa-star-half {
+   font-size: 30px;
+   color: #ff0000;
+    margin-top: 25px;
+}
+
+footer {
+    background-color: #000000;
+    padding: 80px;
+    color: #e50914;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+footer .fa-x-twitter, .fa-square-instagram, .fa-tiktok {
+    color: #7a7c7a;
+    font-size: 40px;
+}
+
+.caixa-footer {
+    margin-top: 20px;
+    text-align: center;
 }
