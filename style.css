@@ -3,6 +3,21 @@
     padding: 0;
   }
 
+  .whatsapp img {
+    width: 50px ;
+  }
+
+  .whatsapp {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+  }
+   
+  .whatsapp img:hover{
+        width: 60px;
+       transition: 0.8s;
+  }
+
 header{
     background: linear-gradient(254deg,rgba(85, 85, 85, 0.897) 0%, rgba(189, 17, 4, 0.966) 50%);
     display: flex;
